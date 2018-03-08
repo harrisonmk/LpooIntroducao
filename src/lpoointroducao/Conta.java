@@ -75,7 +75,7 @@ public class Conta {
 
         Conta c = new Conta();
 
-        if (c.getSaldo() >= p2.getSaldo()) {
+        if (c.getSaldo() > p2.getSaldo()) {
             return c;
         } else {
 
