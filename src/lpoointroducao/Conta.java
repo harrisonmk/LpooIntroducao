@@ -73,10 +73,10 @@ public class Conta {
     
     public Conta clienteMaiorValor1(Conta p2) {
 
-        Conta c = new Conta();
+        
 
-        if (c.getSaldo() > p2.getSaldo()) {
-            return c;
+        if (this.saldo > p2.getSaldo()) {
+            return this;
         } else {
 
             return p2;
