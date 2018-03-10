@@ -45,13 +45,13 @@ public class LpooIntroducao {
         c2.setAgencia(0015);
         c2.setNumero(1010);
         c2.setSenha(0052);
-        c2.setSaldo(500.56);
+        c2.setSaldo(400.56);
 
         
     
-       System.out.println(g.clienteMaiorValor(c1, c2));
+       System.out.println(g.clienteMaiorValor(c1, c2).getNome());
        System.out.println();
-       System.out.println(c1.clienteMaiorValor1(c1));
+       System.out.println(c1.clienteMaiorValor1(c2));
        
                
         
