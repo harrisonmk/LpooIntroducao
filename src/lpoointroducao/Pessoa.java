@@ -53,10 +53,8 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + 
-                "\nDate: " + date+ 
-                "\nSexo: " + sexo + 
-                "\nCpf: " + cpf ;
+        return "Nome: " + nome;
+               
     }
     
     
